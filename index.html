@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>達文西個資暨高科技法律事務所</title>
+
+  <!-- Bootstrap CSS -->
+  <!-- Latest compiled and minified CSS -->
+  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+  <!-- Optional JavaScript：jQuery first, then Popper.js, then Bootstrap JS -->
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+  <style>
+    /*Basic Setting of Document*/
+
+    body {
+      font-family: microsoft jhenghei;
+    }
+
+    h1>span,
+    ul>span {
+      margin-left: 10px;
+    }
+
+    h1>ul {
+      font-size: 18px;
+    }
+
+    span>a {
+      text-decoration: underline;
+      font-size: 12px;
+    }
+
+
+    /* carousel Image Fully Responsive */
+
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+
+    /*Slide in Overlay from the Bottom*/
+
+    .container-overlay {
+      position: relative;
+      width: 50%;
+    }
+
+    .image-overlay {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: grey;
+      overflow: hidden;
+      width: 100%;
+      height: 0;
+      transition: .5s ease;
+      opacity: 0.6;
+    }
+
+    .container-overlay:hover .overlay {
+      height: 100%;
+    }
+
+    .text-overlay {
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-sm navbar-ilght fixed-top">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <!--Menu Icon-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!--Navbar Item-->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br><br>
+
+  <!--Section_Banner Test-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+    <!-- The Wrapper for slides / The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.w3schools.com/bootstrap/la.jpg" alt="Los Angeles" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Los Angeles</h3>
+          <p>We had such a great time in LA!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/bootstrap/chicago.jpg" alt="Chicago" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago!</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.w3schools.com/bootstrap/ny.jpg" alt="New York" width="1100" height="500">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>We love the Big Apple!</p>
+        </div>
+      </div>
+    </div>
+    <!-- Left and Right Controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+  </div>
+  <hr>
+
+  <!--Announcement-->
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>6/8</h1>
+    <p>從日常生活法律案例看國考法科命題 主講：王大明律師</p>
+    <button class="btn btn-info">立即報名</button>
+  </div>
+  <hr>
+
+  <!--Section_Service-->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h2>GDRP</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>個資檢查</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>網路犯罪</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>科技法律</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>新創智財</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>金融法律</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>訴訟仲裁</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+      <div class="col-md-3">
+        <h2>民事商務</h2>
+        <p>專精GDRP，協助在地商業避免碰觸歐盟個資及隱私地雷</p>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--Section_News-->
+  <div>
+    <div class="container">
+
+      <h1>最新消息<span><a href="#">More</a></span></h1>
+      <div class="row">
+        <div class="col-4">
+          <ul>熱門文章<span><a href="#">More</a></span>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul>熱門文章<span><a href="#">More</a></span>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul style="font-size: 20px; font-weight: bold;">熱門文章<span><a href="#">More</a></span>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+            <li>《2018-05015》最嚴個資法歐盟GDPR來襲 台灣企業準備好了嗎？！</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <hr>
+  <!--Section_Team-->
+  <div class="container">
+    <h1>我們的團隊<span><a href="#">More</a></span></h1>
+    <div class="container-overlay">
+      <img src="https://www.w3schools.com/w3css/img_avatar3.png" alt="Avatar" class="image-overlay">
+      <div class="overlay">
+        <div class="text-overlay">Hello World</div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--Section_Download-->
+  <div class="container">
+    <h1>研究下載<span><a href="#">More</a></span></h1>
+    <div class="row">
+      <div class="col-3">
+        <div style=" text-align: center">
+          <h3>歐盟GDRP</h3>
+          <p>上檔日期：2018-05-10</p>
+          <button class="btn btn-info" type="button" name="download">立即下載</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div style=" text-align: center">
+          <h3>資料準備中</h3>
+          <p>上檔日期：2018-05-10</p>
+          <button class="btn btn-info" type="button" name="download">立即下載</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div style=" text-align: center">
+          <h3>資料準備中</h3>
+          <p>上檔日期：2018-05-10</p>
+          <button class="btn btn-info" type="button" name="download">立即下載</button>
+        </div>
+      </div>
+      <div class="col-3">
+        <div style=" text-align: center">
+          <h3>資料準備中</h3>
+          <p>上檔日期：2018-05-10</p>
+          <button class="btn btn-info" type="button" name="download">立即下載</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!--Footer-->
+  <footer style="display: block">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-9">達文西個資暨高科技法律事務所版權所有，轉載必究<br>© 2011 DaVinci Personal Data and High-Tech Law Firm all rights reserved.</div>
+        <div class "col-3" style="text-align: right">合作夥伴：<a href="">法源法律網</a> / <a href="">TUVIT</a></div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <br>
+</body>
+
+</html>
